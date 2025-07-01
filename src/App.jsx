@@ -4,7 +4,7 @@ import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   const handleShare = () => {
-    const shareLink = "https://samsungpho.netlify.app";
+    const shareLink = "https://giveawayray.netlify.app/";
     const message = `🔥 Free Samsung Phone Giveaway for Nigerians!\n\nClick to claim: ${shareLink}`;
     window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(message)}`);
   };
